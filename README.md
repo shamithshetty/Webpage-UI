@@ -6,5 +6,5 @@
 
 ## DEMO
  
-[https://gigibio.000webhostapp.com/mainForm.html](https://gigibio.000webhostapp.com/mainForm.html)
+[http://gigibio.000webhostapp.com/](http://gigibio.000webhostapp.com/)
   
