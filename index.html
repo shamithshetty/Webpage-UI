@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+	<head>
+		<title>GIGI Hot pics</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styleCss.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="MyScript.js"></script>
+		 
+	</head>
+	<body>
+		<header id="header">
+			<img src="link.png"/>
+			<img src="face.png"/>
+			<img src="insta.png"/>
+		</header>
+		<div class="C-L" id="C-L">
+			<div class="left-child1" id="left-child1">
+				<span id='c1'> GIGI<br/> HADID <img src="tick.jpg"/></span>
+			</div>
+			<div class="left-child2" id="left-child2">
+				<article>	
+					<span>Fashion modek, and television personality who grated the   pages of 
+						magazines such as Elle and vogue the covers of Galore and Schon!</span>
+				</article>
+				<span class="hori-line"></span>
+			</div>
+		</div>
+		<div class="C-R">  <img  src="pic1.JPG">
+		</div>
+		
+		<div class="container" id="container" >
+			<div class="C-B">
+				<div class="box">
+					<div>
+						<span>PHOTO-SHOOT<span>
+						<div class="picbox1">
+							<div><img src="p1.jpg" class='img'/></div>
+							<div><img src="p5.jpg" class='img'/></div>
+							<div><img src="p7.jpg" class='img'/></div>
+							<div><img src="p4.jpg" class='img'/></div>
+						</div>
+					</div>
+					<div class="space">
+						<span>PASTWORK<span>
+						<div class="picbox2">
+							<div><img src="p2.jpg" class='img'/></div>
+							<div><img src="p6.jpg" class='img'/></div>
+							<div><img src="p3.jpg" class='img'/></div>
+							<div><img src="p8.jpg" class='img'/></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer"><span>Height:1.7M  |  Weight:54kg  |  Age:25  |</span><span>  Hair-color:blonde  |  Eye-color:green</span></div>
+		</div>
+		<script>
+			var prevScrollpos = window.pageYOffset;
+			window.onscroll = function() {
+			var currentScrollPos = window.pageYOffset;
+			var i=document.getElementsByTagName('header')[0].getElementsByTagName('img');
+			var j; 	
+			if (prevScrollpos > currentScrollPos && document.documentElement.scrollTop  < 30) {
+				for(j=0;j<i.length;j++)
+					i[j].style.top = "60px";
+			} else {
+				for(j=0;j<i.length;j++)	
+					i[j].style.top = "-100px";
+			}
+			prevScrollpos = currentScrollPos;
+			}
+		</script>
+		 
+			
+	</body>
+</html>
